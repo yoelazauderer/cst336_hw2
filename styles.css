@@ -30,10 +30,6 @@ nav a:hover { /* pueudo class */
     border-bottom:2px #c6a260 solid;
 }
 
-.current {
-     border-bottom:2px #c6a260 solid;
-}
-
 #promocode {
     background-color: #c6a260;
     text-align: center;
@@ -101,7 +97,7 @@ td {
     padding: 30px;
 }
 
-#item1 {
+tr {
     display:none;
 }
 
