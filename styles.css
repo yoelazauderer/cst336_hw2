@@ -93,8 +93,23 @@ button:hover {
 
 table {
     margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+td { 
+    padding: 30px;
+}
+
+tr {
+    display:none;
 }
 
 #yourcart {
     color: #c6a260;
+}
+
+.cartphoto {
+    width: 100px;
+    height:100px;
 }

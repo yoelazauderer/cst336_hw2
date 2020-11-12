@@ -34,12 +34,17 @@
                     price: 79.00,
                 };
                 
-                $("#b1").on("click", function() {
-                    var temp = ("#b1").val();
-                    subtotal += product1.price * temp;
+                $("#btn1").on("click", function() {
+                    let qtyResponse1 = $("#quantity1").val();
+                    subtotal += product1.price * qtyResponse1;
                     $("#subtotal").html(`Subtotal: $${subtotal}`);
+                    $("#item1").css("display", "block");
+                });
+                
+                 $("#remove1").on("click", function() {
+                    $("#item1").css("display", "none");
                     
-                })
+                });
                 
                 // function updateVal(){
                 //     var input = document.getElementById("quantity1").value;
