@@ -34,7 +34,12 @@
                     price: 79.00,
                 };
                 
+                
+                alert($("#quantity1").val());
+        
+                
                 $("#btn1").on("click", function() {
+                    alert("this works");
                     let qtyResponse1 = $("#quantity1").val();
                     subtotal += product1.price * qtyResponse1;
                     $("#subtotal").html(`Subtotal: $${subtotal}`);
